@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>The Color Lab</title>
+      <link rel="stylesheet" href="Home.css">
+   </head>
+   <body>
+    <header>                    
+         <h1>The Color Lab</h1>
+         <p>Your Film Filtered, Just The Way You Like</p>
+      </header>  
+      
+      <nav>
+         <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="davinci.html">DaVinci Resolve Services</a></li>
+            <li><a href="premiere.html">Premiere Pro Services</a></li>
+            <li><a href="locationandhours.html">Location and Hours</a></li>
+            <li><a href="inquiries.html">Inquiries</a></li>
+         </ul>
+      </nav>
+
+       <main> 
+        <form>
+            <h2>Inquiry Form</h2>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company"><br><br>
+            <h3>Job Type:</h3>
+               <div class="radio-option">
+                  <input type="radio" id="corrections" name="jobtype" value="Basic Corrections">
+                  <label for="corrections">Basic Corrections</label>
+               </div>
+               <div class="radio-option">
+                  <input type="radio" id="andLook" name="jobtype" value="Basic Corrections and Cinematic Look">
+                  <label for="andLook">Basic Corrections and Cinematic Look</label>
+               </div>
+               <div class="radio-option">
+                  <input type="radio" id="jobOther" name="jobtype" value="Other">
+                  <label for="jobOther">Other (please specify)</label>
+               </div>
+            <h3>Software:</h3>
+               <div class="radio-option">
+                  <input type="radio" id="davinci" name="software" value="DaVinci Resolve">
+                  <label for="davinci">DaVinci Resolve</label>
+               </div>
+               <div class="radio-option">
+                  <input type="radio" id="premiere" name="software" value="Premiere Pro">
+                  <label for="premiere">Premiere Pro</label>
+               </div>
+               <div class="radio-option">
+                  <input type="radio" id="softwareOther" name="software" value="Other / Not Applicable">
+                  <label for="softwareOther">Other / Not Applicable</label>
+               </div>
+            <h3>Description:</h3>
+               <label for="description">Give us the deets!</label>
+               <textarea id="description" name="description" rows="6"></textarea>
+               <input type="submit" value="Submit">
+        </form>
+
+       </main>
+
+    <footer>                 
+         <p>2026 The Color Lab. Bozorth 152, Rowan University. Open 8AM-8PM Weekdays. 848-240-5636. em@thecolorlab.com</p>
+      </footer>
+   </body>
+
+</html>
